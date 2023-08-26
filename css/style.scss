@@ -1,6 +1,6 @@
 $white: #0d0d0d;
 $black: #e8e8e8;
-$primary1: #FEE600;
+$primary1: #fee600;
 $primary2: #f8842b;
 $textCol: #1f1f1f;
 
@@ -29,6 +29,10 @@ $textCol: #1f1f1f;
 @mixin upperBold {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -234,7 +238,6 @@ a:focus {
   }
 
   &[aria-expanded="false"] {
-
     .s-1,
     .s-2,
     .s-3 {
@@ -292,7 +295,8 @@ a:focus {
       margin-bottom: 20px;
     }
 
-    p {}
+    p {
+    }
 
     .btn-box {
       display: flex;
@@ -307,11 +311,7 @@ a:focus {
       }
 
       .btn1 {
-        @include hero_btn(darken($color: $primary1, $amount: 10),
-          $white,
-          12px,
-          15px,
-          5px);
+        @include hero_btn(darken($color: $primary1, $amount: 10), $white, 12px, 15px, 5px);
       }
     }
   }
@@ -366,6 +366,7 @@ a:focus {
     position: relative;
     overflow: hidden;
     transition: all 0.3s;
+    flex: 1;
 
     &::before {
       content: "";
@@ -645,6 +646,12 @@ a:focus {
         height: 100%;
       }
     }
+
+    img {
+      width: 100%;
+      height: auto;
+      padding: 88px;
+    }
   }
 }
 
@@ -738,7 +745,7 @@ a:focus {
     button {
       width: 100%;
       text-align: center;
-      @include hero_btn($primary2, $white, 10px, 55px, 0);
+      @include hero_btn($white, $black, 10px, 55px, 0);
       margin-top: 15px;
     }
   }
@@ -762,4 +769,24 @@ a:focus {
   }
 }
 
+.scroll-top {
+  display: none;
+  transform: rotate(90deg);
+  background: $white;
+  color: $black;
+  border: none;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  z-index: 99;
+  border-radius: 50%;
+  padding: 8px;
+  text-align: center;
+  line-height: 1rem;
+  height: 40px;
+  width: 40px;
+  &:hover {
+    background-color: #131313;
+  }
+}
 // end footer section
