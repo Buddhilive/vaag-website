@@ -196,16 +196,16 @@ a:focus {
   margin-left: 5px;
 }
 .quote_btn-container a:hover {
-  color: #f8842b;
+  color: #fff7b0;
 }
 .quote_btn-container .quote_btn {
   display: inline-block;
   padding: 5px 25px;
-  background-color: #f8842b;
+  background-color: #fff7b0;
   color: #0d0d0d;
   border-radius: 5px;
   transition: all 0.3s;
-  border: 1px solid #f8842b;
+  border: 1px solid #fff7b0;
 }
 .quote_btn-container .quote_btn:hover {
   color: #0d0d0d;
@@ -279,7 +279,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 23px;
   height: 23px;
-  background-color: #f8842b;
+  background-color: #fff7b0;
 }
 
 .service_section {
@@ -385,11 +385,11 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f8842b;
+  background-color: #fff7b0;
   color: #0d0d0d;
   border-radius: 5px;
   transition: all 0.3s;
-  border: 1px solid #f8842b;
+  border: 1px solid #fff7b0;
   margin-top: 15px;
 }
 .about_section .detail-box a:hover {
@@ -406,7 +406,8 @@ a:focus {
 }
 .case_section .box {
   margin-top: 45px;
-  background-color: #0d0d0d;
+  background-color: #e8e8e8;
+  color: #0d0d0d;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
   text-align: center;
 }
@@ -488,7 +489,7 @@ a:focus {
 .client_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #f8842b;
+  background-color: #fff7b0;
 }
 
 .contact_section {
@@ -575,7 +576,7 @@ a:focus {
   margin-right: 5px;
 }
 .info_section .info_contact .contact_link_box a:hover {
-  color: #f8842b;
+  color: #fff7b0;
 }
 .info_section .info_social {
   display: flex;
@@ -591,7 +592,7 @@ a:focus {
   font-size: 24px;
 }
 .info_section .info_social a:hover {
-  color: #f8842b;
+  color: #fff7b0;
 }
 .info_section .info_links {
   display: flex;
@@ -605,7 +606,7 @@ a:focus {
   color: #0d0d0d;
 }
 .info_section .info_links a:hover {
-  color: #f8842b;
+  color: #fff7b0;
 }
 .info_section form input {
   border: none;

@@ -1,7 +1,7 @@
 $white: #0d0d0d;
 $black: #e8e8e8;
 $primary1: #fee600;
-$primary2: #f8842b;
+$primary2: #fff7b0;
 $textCol: #1f1f1f;
 
 // import fonts
@@ -484,7 +484,8 @@ a:focus {
 
   .box {
     margin-top: 45px;
-    background-color: $white;
+    background-color: $black;
+    color: $white;
     box-shadow: 0 0 10px 0 rgba($color: #000000, $alpha: 0.15);
     text-align: center;
 
