@@ -319,6 +319,7 @@ a:focus {
   .img-box {
     img {
       width: 100%;
+      border-radius: 64px;
     }
   }
 
@@ -452,6 +453,7 @@ a:focus {
 
     img {
       width: 100%;
+      border-radius: 64px;
     }
   }
 
@@ -639,6 +641,7 @@ a:focus {
     min-height: 325px;
     overflow: hidden;
     margin-left: 45px;
+    padding: 88px;
 
     .map {
       height: 100%;
@@ -651,7 +654,7 @@ a:focus {
     img {
       width: 100%;
       height: auto;
-      padding: 88px;
+      border-radius: 64px;
     }
   }
 }
@@ -791,3 +794,22 @@ a:focus {
   }
 }
 // end footer section
+.team {
+  &_section {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    padding: 16px 32px;
+  }
+  &_img {
+    width: 100%;
+    height: auto;
+    border-radius: 48px;
+  }
+  &_heading {
+    margin-bottom: 32px;
+    h2 {
+      text-align: center;
+      font-weight: 800;
+    }
+  }
+}
